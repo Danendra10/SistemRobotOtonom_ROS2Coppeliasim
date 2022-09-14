@@ -1,0 +1,9 @@
+[0.017s] Invoking command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/colcon_ws/build/routine -- -j8 -l8
+[0.039s] CMake Error at CMakeLists.txt:32:
+[0.039s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.039s] 
+[0.039s] 
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.040s] See also "/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/CMakeOutput.log".
+[0.040s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.042s] Invoked command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/colcon_ws/build/routine -- -j8 -l8

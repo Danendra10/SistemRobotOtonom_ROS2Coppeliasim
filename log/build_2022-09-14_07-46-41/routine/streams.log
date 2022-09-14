@@ -1,0 +1,38 @@
+[0.027s] Invoking command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/colcon_ws/build/routine -- -j8 -l8
+[0.118s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.166s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.429s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.457s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.636s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.674s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.676s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.815s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.847s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.906s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+[0.906s]   add_custom_target cannot create target "routine" because another target
+[0.907s]   with the same name already exists.  The existing target is an executable
+[0.907s]   created in source directory
+[0.907s]   "/home/danendra/Kuliah/SRO/colcon_ws/src/routine".  See documentation for
+[0.907s]   policy CMP0002 for more details.
+[0.907s] Call Stack (most recent call first):
+[0.907s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[0.907s] 
+[0.907s] 
+[0.907s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.971s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.972s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.972s] -- Configured cppcheck include dirs: 
+[0.972s] -- Configured cppcheck exclude dirs and/or files: 
+[0.973s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.973s] -- Configured cpplint exclude dirs and/or files: 
+[0.974s] -- Added test 'lint_cmake' to check CMake code style
+[0.975s] -- Added test 'uncrustify' to check C / C++ code style
+[0.975s] -- Configured uncrustify additional arguments: 
+[0.975s] -- Added test 'xmllint' to check XML markup files
+[0.979s] -- Configuring incomplete, errors occurred!
+[0.979s] See also "/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/CMakeOutput.log".
+[0.979s] See also "/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/CMakeError.log".
+[0.986s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.988s] Invoked command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/colcon_ws/build/routine -- -j8 -l8

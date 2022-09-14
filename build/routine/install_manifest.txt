@@ -1,0 +1,16 @@
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/lib/routine/routine
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/ament_index/resource_index/package_run_dependencies/routine
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/ament_index/resource_index/parent_prefix_path/routine
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/environment/ament_prefix_path.sh
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/environment/ament_prefix_path.dsv
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/environment/path.sh
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/environment/path.dsv
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/local_setup.bash
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/local_setup.sh
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/local_setup.zsh
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/local_setup.dsv
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/package.dsv
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/ament_index/resource_index/packages/routine
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/cmake/routineConfig.cmake
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/cmake/routineConfig-version.cmake
+/home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/package.xml

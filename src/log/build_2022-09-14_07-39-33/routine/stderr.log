@@ -1,0 +1,7 @@
+[01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:53:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Int32 = struct std_msgs::msg::Int32_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Int32_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kindex[m[K’
+   53 |                     vel_data.[01;31m[Kindex[m[K = 0;
+      |                              [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/routine.dir/build.make:63: CMakeFiles/routine.dir/src/routine.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/routine.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

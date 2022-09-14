@@ -1,0 +1,6 @@
+Invoking command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/danendra/Kuliah/SRO/colcon_ws/src/routine -DCMAKE_INSTALL_PREFIX=/home/danendra/Kuliah/SRO/colcon_ws/install/routine
+Invoked command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/danendra/Kuliah/SRO/colcon_ws/src/routine -DCMAKE_INSTALL_PREFIX=/home/danendra/Kuliah/SRO/colcon_ws/install/routine
+Invoking command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/colcon_ws/build/routine -- -j8 -l8
+Invoked command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/colcon_ws/build/routine -- -j8 -l8
+Invoking command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SRO/colcon_ws/build/routine
+Invoked command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SRO/colcon_ws/build/routine

@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000127] (routine) JobQueued: {'identifier': 'routine', 'dependencies': OrderedDict()}
+[0.000296] (routine) JobStarted: {'identifier': 'routine'}
+[0.013358] (routine) JobProgress: {'identifier': 'routine', 'progress': 'cmake'}
+[0.015161] (routine) JobProgress: {'identifier': 'routine', 'progress': 'build'}
+[0.015250] (routine) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danendra/Kuliah/SRO/colcon_ws/build/routine', '--', '-j8', '-l8'], 'cwd': '/home/danendra/Kuliah/SRO/colcon_ws/build/routine', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danendra'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1728'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danendra'), ('OLDPWD', '/home/danendra/Kuliah/SRO'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1539'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/danendra/Kuliah/SRO/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danendra'), ('JOURNAL_STREAM', '8:50395'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danendra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/DanCoeks:@/tmp/.ICE-unix/1765,unix/DanCoeks:/tmp/.ICE-unix/1765'), ('INVOCATION_ID', 'a2a64fb9bbdb4caea6b207d7c856ec70'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54dd3835_5315_4b1f_82e6_097b45f78433'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danendra/Kuliah/SRO/colcon_ws/install/routine:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danendra/Kuliah/SRO/colcon_ws/build/routine'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danendra/Kuliah/SRO/colcon_ws/install/routine:/opt/ros/foxy')]), 'shell': False}
+[0.050239] (routine) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.074536] (routine) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099415] (-) TimerEvent: {}
+[0.199750] (-) TimerEvent: {}
+[0.263335] (routine) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.290204] (routine) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.295038] (routine) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299872] (-) TimerEvent: {}
+[0.400191] (-) TimerEvent: {}
+[0.436153] (routine) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500339] (-) TimerEvent: {}
+[0.501105] (routine) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.553032] (routine) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.555924] (routine) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600545] (-) TimerEvent: {}
+[0.700905] (-) TimerEvent: {}
+[0.719589] (routine) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.758980] (routine) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.801076] (-) TimerEvent: {}
+[0.901466] (-) TimerEvent: {}
+[0.974084] (routine) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.974380] (routine) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name routine\n'}
+[0.974561] (routine) StderrLine: {'line': b'  --arguments-file\n'}
+[0.974751] (routine) StderrLine: {'line': b'  /home/danendra/Kuliah/SRO/colcon_ws/build/routine/rosidl_adapter__arguments__routine.json\n'}
+[0.974865] (routine) StderrLine: {'line': b'  --output-dir\n'}
+[0.974965] (routine) StderrLine: {'line': b'  /home/danendra/Kuliah/SRO/colcon_ws/build/routine/rosidl_adapter/routine\n'}
+[0.975063] (routine) StderrLine: {'line': b'  --output-file\n'}
+[0.975161] (routine) StderrLine: {'line': b'  /home/danendra/Kuliah/SRO/colcon_ws/build/routine/rosidl_adapter/routine.idls)\n'}
+[0.975259] (routine) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.975355] (routine) StderrLine: {'line': b'\n'}
+[0.975451] (routine) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.975547] (routine) StderrLine: {'line': b'\n'}
+[0.975640] (routine) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[0.975734] (routine) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.975828] (routine) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[0.975924] (routine) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.976020] (routine) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.976127] (routine) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.976222] (routine) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.976318] (routine) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.976413] (routine) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.976535] (routine) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.976631] (routine) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.976726] (routine) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.976842] (routine) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[0.976992] (routine) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.977167] (routine) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[0.977345] (routine) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[0.977524] (routine) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[0.977703] (routine) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.977885] (routine) StderrLine: {'line': b'\n'}
+[0.978131] (routine) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'motion' is an invalid message\n"}
+[0.978291] (routine) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.978451] (routine) StderrLine: {'line': b'\n'}
+[0.978609] (routine) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.978784] (routine) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.978946] (routine) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[0.979103] (routine) StderrLine: {'line': b'\n'}
+[0.979261] (routine) StderrLine: {'line': b'\n'}
+[0.979419] (routine) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.979586] (routine) StdoutLine: {'line': b'See also "/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/CMakeOutput.log".\n'}
+[0.979754] (routine) StdoutLine: {'line': b'See also "/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/CMakeError.log".\n'}
+[0.989659] (routine) StderrLine: {'line': b'make: *** [Makefile:266: cmake_check_build_system] Error 1\n'}
+[0.992477] (routine) CommandEnded: {'returncode': 2}
+[1.001639] (-) TimerEvent: {}
+[1.052037] (routine) JobEnded: {'identifier': 'routine', 'rc': 2}
+[1.063245] (-) EventReactorShutdown: {}

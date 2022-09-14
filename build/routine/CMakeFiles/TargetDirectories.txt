@@ -1,0 +1,10 @@
+/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/install/strip.dir
+/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/install/local.dir
+/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/install.dir
+/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/list_install_components.dir
+/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/rebuild_cache.dir
+/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/edit_cache.dir
+/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/test.dir
+/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/routine.dir
+/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/routine_uninstall.dir
+/home/danendra/Kuliah/SRO/colcon_ws/build/routine/CMakeFiles/uninstall.dir
