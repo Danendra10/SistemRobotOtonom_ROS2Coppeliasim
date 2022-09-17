@@ -1,0 +1,33 @@
+[01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:84:6:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_timer(rclcpp::Node::SharedPtr&, std::shared_ptr<rclcpp::Clock>&, double, main(int, char**)::<lambda()>)[m[K’
+   84 |     }[01;31m[K)[m[K;
+      |      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:41[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/create_timer.hpp:36:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT> rclcpp::TimerBase::SharedPtr rclcpp::create_timer(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeTimersInterface>, rclcpp::Clock::SharedPtr, rclcpp::Duration, CallbackT&&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+   36 | [01;36m[Kcreate_timer[m[K(
+      | [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/create_timer.hpp:36:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:84:6:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+   84 |     }[01;36m[K)[m[K;
+      |      [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:41[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/create_timer.hpp:57:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class CallbackT> rclcpp::TimerBase::SharedPtr rclcpp::create_timer(NodeT, rclcpp::Clock::SharedPtr, rclcpp::Duration, CallbackT&&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+   57 | [01;36m[Kcreate_timer[m[K(
+      | [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/create_timer.hpp:57:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:81:60:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K5.0e-1[m[K’ (type ‘[01m[Kdouble[m[K’) to type ‘[01m[Krclcpp::Duration[m[K’
+   81 |     auto timer_ = rclcpp::create_timer(routine, ros_clock, [01;36m[K0.5[m[K,
+      |                                                            [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/routine.dir/build.make:63: CMakeFiles/routine.dir/src/routine.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/routine.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

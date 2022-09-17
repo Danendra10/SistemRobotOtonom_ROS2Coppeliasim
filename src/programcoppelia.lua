@@ -58,19 +58,26 @@ function sysCall_init()
     maxDetectionDist=0.2
     detect={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
     braitenbergL={-0.2,-0.4,-0.6,-0.8,-1,-1.2,-1.4,-1.6, 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0}
-    braitenbergR={-1.6,-1.4,-1.2,-1,-0.8,-0.6,-0.4,-0.2, 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0}    
-    if simROS2 then
-        sub_vel_comm = simROS2.createSubscription('/pub_key_command', 'std_msgs/msg/Int32', 'CllbkVelComm')
-    end
+    braitenbergR={-1.6,-1.4,-1.2,-1,-0.8,-0.6,-0.4,-0.2, 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0}        
+    sub_vel_comm = simROS2.createSubscription('/pub_key_command', 'std_msgs/msg/Int32', 'CllbkVelComm')
+    pub_sensor_data_4 = simROS2.createPublisher('/sensor_data_4', 'std_msgs/msg/Float32')
+    pub_sensor_data_5 = simROS2.createPublisher('/sensor_data_5', 'std_msgs/msg/Float32')
 end
 -- This is a very simple EXAMPLE navigation program, which avoids obstacles using the Braitenberg algorithm
 
 
 function sysCall_cleanup() 
- 
+
 end 
 
 function sysCall_actuation() 
+    local sensor_4, dist_4 = sim.readProximitySensor(usensors[4])
+    local sensor_5, dist_5 = sim.readProximitySensor(usensors[5])
+    data = {}
+    data.distEmpat = dist_4 
+    data.distLima = dist_5
+    simROS2.publish(pub_sensor_data_4, {data=dist_4})
+    simROS2.publish(pub_sensor_data_5, {data=dist_5})
     for i=1,16,1 do
         res,dist=sim.readProximitySensor(usensors[i])
         if (res>0) and (dist<noDetectionDist) then

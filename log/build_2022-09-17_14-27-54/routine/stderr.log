@@ -1,0 +1,7 @@
+[01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:[m[K In member function ‘[01m[Kvoid Routine::topic_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:21:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   21 |       std::cout << msg.[01;31m[Kdata[m[K;
+      |                        [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/routine.dir/build.make:63: CMakeFiles/routine.dir/src/routine.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/routine.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

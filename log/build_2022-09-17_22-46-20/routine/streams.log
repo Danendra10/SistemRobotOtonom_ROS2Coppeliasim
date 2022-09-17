@@ -1,0 +1,30 @@
+[0.017s] Invoking command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/colcon_ws/build/routine -- -j8 -l8
+[0.078s] [35m[1mScanning dependencies of target routine[0m
+[0.112s] [ 50%] [32mBuilding CXX object CMakeFiles/routine.dir/src/routine.cpp.o[0m
+[1.576s] [01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:[m[K In member function ‘[01m[Kvoid Routine::CllbkDataSensor5(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.576s] [01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:25:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.577s]    25 |     void CllbkDataSensor5([01;35m[Kconst std_msgs::msg::Float32::SharedPtr msg[m[K) const
+[1.577s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.406s] [100%] [32m[1mLinking CXX executable routine[0m
+[5.732s] [100%] Built target routine
+[5.746s] Invoked command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/colcon_ws/build/routine -- -j8 -l8
+[5.796s] Invoking command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SRO/colcon_ws/build/routine
+[5.806s] -- Install configuration: ""
+[5.807s] -- Installing: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/lib/routine/routine
+[5.813s] -- Set runtime path of "/home/danendra/Kuliah/SRO/colcon_ws/install/routine/lib/routine/routine" to ""
+[5.813s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/ament_index/resource_index/package_run_dependencies/routine
+[5.813s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/ament_index/resource_index/parent_prefix_path/routine
+[5.813s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/environment/ament_prefix_path.sh
+[5.814s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/environment/ament_prefix_path.dsv
+[5.814s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/environment/path.sh
+[5.814s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/environment/path.dsv
+[5.814s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/local_setup.bash
+[5.815s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/local_setup.sh
+[5.815s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/local_setup.zsh
+[5.815s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/local_setup.dsv
+[5.815s] -- Installing: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/package.dsv
+[5.815s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/ament_index/resource_index/packages/routine
+[5.815s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/cmake/routineConfig.cmake
+[5.816s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/cmake/routineConfig-version.cmake
+[5.816s] -- Up-to-date: /home/danendra/Kuliah/SRO/colcon_ws/install/routine/share/routine/package.xml
+[5.818s] Invoked command in '/home/danendra/Kuliah/SRO/colcon_ws/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SRO/colcon_ws/build/routine

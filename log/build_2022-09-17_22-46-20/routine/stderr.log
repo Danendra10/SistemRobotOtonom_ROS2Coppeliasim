@@ -1,0 +1,4 @@
+[01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:[m[K In member function ‘[01m[Kvoid Routine::CllbkDataSensor5(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp:25:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   25 |     void CllbkDataSensor5([01;35m[Kconst std_msgs::msg::Float32::SharedPtr msg[m[K) const
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
