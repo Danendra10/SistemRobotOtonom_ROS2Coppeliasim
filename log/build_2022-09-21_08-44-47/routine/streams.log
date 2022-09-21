@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/TugasPID/build/routine -- -j8 -l8
+[0.115s] [35m[1mScanning dependencies of target routine[0m
+[0.166s] [ 50%] [32mBuilding CXX object CMakeFiles/routine.dir/src/routine.cpp.o[0m
+[8.557s] [100%] [32m[1mLinking CXX executable routine[0m
+[9.123s] [100%] Built target routine
+[9.188s] Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/TugasPID/build/routine -- -j8 -l8
+[9.258s] Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SRO/TugasPID/build/routine
+[9.275s] -- Install configuration: ""
+[9.275s] -- Installing: /home/danendra/Kuliah/SRO/TugasPID/install/routine/lib/routine/routine
+[9.280s] -- Set runtime path of "/home/danendra/Kuliah/SRO/TugasPID/install/routine/lib/routine/routine" to ""
+[9.281s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/ament_index/resource_index/package_run_dependencies/routine
+[9.281s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/ament_index/resource_index/parent_prefix_path/routine
+[9.281s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/ament_prefix_path.sh
+[9.282s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/ament_prefix_path.dsv
+[9.282s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/path.sh
+[9.282s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/path.dsv
+[9.282s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.bash
+[9.283s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.sh
+[9.283s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.zsh
+[9.283s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.dsv
+[9.283s] -- Installing: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/package.dsv
+[9.283s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/ament_index/resource_index/packages/routine
+[9.284s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/cmake/routineConfig.cmake
+[9.284s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/cmake/routineConfig-version.cmake
+[9.284s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/package.xml
+[9.288s] Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SRO/TugasPID/build/routine

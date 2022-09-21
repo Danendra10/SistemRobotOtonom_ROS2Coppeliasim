@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000246] (routine) JobQueued: {'identifier': 'routine', 'dependencies': OrderedDict()}
+[0.000756] (routine) JobStarted: {'identifier': 'routine'}
+[0.014591] (routine) JobProgress: {'identifier': 'routine', 'progress': 'cmake'}
+[0.016439] (routine) JobProgress: {'identifier': 'routine', 'progress': 'build'}
+[0.016757] (routine) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danendra/Kuliah/SRO/TugasPID/build/routine', '--', '-j8', '-l8'], 'cwd': '/home/danendra/Kuliah/SRO/TugasPID/build/routine', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danendra'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1856'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danendra'), ('OLDPWD', '/home/danendra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1672'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/danendra/Kuliah/SRO/TugasPID/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danendra'), ('JOURNAL_STREAM', '8:47641'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danendra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/danendra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/DanCoeks:@/tmp/.ICE-unix/1893,unix/DanCoeks:/tmp/.ICE-unix/1893'), ('INVOCATION_ID', 'a15cb580e20b48508bc3893a7fba15c0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6354eb86_bb3b_4014_8fd9_35b951f87bb3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danendra/Kuliah/SRO/TugasPID/install/routine:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danendra/Kuliah/SRO/TugasPID/build/routine'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danendra/Kuliah/SRO/TugasPID/install/routine:/opt/ros/foxy')]), 'shell': False}
+[0.078840] (routine) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target routine\x1b[0m\n'}
+[0.098677] (-) TimerEvent: {}
+[0.116211] (routine) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/routine.dir/src/routine.cpp.o\x1b[0m\n'}
+[0.198779] (-) TimerEvent: {}
+[0.299408] (-) TimerEvent: {}
+[0.400174] (-) TimerEvent: {}
+[0.500579] (-) TimerEvent: {}
+[0.601040] (-) TimerEvent: {}
+[0.701384] (-) TimerEvent: {}
+[0.801822] (-) TimerEvent: {}
+[0.902563] (-) TimerEvent: {}
+[1.003125] (-) TimerEvent: {}
+[1.103636] (-) TimerEvent: {}
+[1.204060] (-) TimerEvent: {}
+[1.304404] (-) TimerEvent: {}
+[1.404808] (-) TimerEvent: {}
+[1.505181] (-) TimerEvent: {}
+[1.605516] (-) TimerEvent: {}
+[1.687284] (routine) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:5\x1b[m\x1b[K:\n'}
+[1.687616] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:9:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kvel_res\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.687869] (routine) StderrLine: {'line': b'    9 | float vel_res[1][\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[1.688047] (routine) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.688254] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:10:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kvel_inp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.688403] (routine) StderrLine: {'line': b'   10 | float vel_inp[1][\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[1.688569] (routine) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.688747] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat reverseArray(float (*)[2])\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.688929] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:34:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.689117] (routine) StderrLine: {'line': b'   34 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.689298] (routine) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.689477] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat forwardKinematics(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.689653] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:40:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[1.689809] (routine) StderrLine: {'line': b'   40 |     return \x1b[01;35m\x1b[Kvel_res[0][0]\x1b[m\x1b[K, vel_res[0][1];\n'}
+[1.689976] (routine) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.690130] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat inreverseKinematics(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.690286] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:48:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[1.690442] (routine) StderrLine: {'line': b'   48 |     return \x1b[01;35m\x1b[Kvel_res[0][0]\x1b[m\x1b[K, vel_res[1][0];\n'}
+[1.690594] (routine) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.705631] (-) TimerEvent: {}
+[1.714407] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.714667] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:54:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdelta_rotation\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.714823] (routine) StderrLine: {'line': b'   54 |     float \x1b[01;35m\x1b[Kdelta_rotation\x1b[m\x1b[K = 0;\n'}
+[1.714958] (routine) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.805738] (-) TimerEvent: {}
+[1.906069] (-) TimerEvent: {}
+[2.006420] (-) TimerEvent: {}
+[2.106731] (-) TimerEvent: {}
+[2.207063] (-) TimerEvent: {}
+[2.307366] (-) TimerEvent: {}
+[2.407691] (-) TimerEvent: {}
+[2.508041] (-) TimerEvent: {}
+[2.608367] (-) TimerEvent: {}
+[2.708702] (-) TimerEvent: {}
+[2.809015] (-) TimerEvent: {}
+[2.909324] (-) TimerEvent: {}
+[3.009630] (-) TimerEvent: {}
+[3.109938] (-) TimerEvent: {}
+[3.210212] (-) TimerEvent: {}
+[3.310574] (-) TimerEvent: {}
+[3.410908] (-) TimerEvent: {}
+[3.511361] (-) TimerEvent: {}
+[3.579363] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:66:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KvLeft\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K-Wmaybe-uninitialized\x1b[m\x1b[K]\n'}
+[3.579638] (routine) StderrLine: {'line': b'   66 |         \x1b[01;35m\x1b[Kmsg_motor_left.data = vLeft\x1b[m\x1b[K;\n'}
+[3.579805] (routine) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[3.611521] (-) TimerEvent: {}
+[3.711874] (-) TimerEvent: {}
+[3.812211] (-) TimerEvent: {}
+[3.912551] (-) TimerEvent: {}
+[4.012892] (-) TimerEvent: {}
+[4.113256] (-) TimerEvent: {}
+[4.213553] (-) TimerEvent: {}
+[4.313834] (-) TimerEvent: {}
+[4.414126] (-) TimerEvent: {}
+[4.514566] (-) TimerEvent: {}
+[4.614961] (-) TimerEvent: {}
+[4.715615] (-) TimerEvent: {}
+[4.816923] (-) TimerEvent: {}
+[4.917277] (-) TimerEvent: {}
+[5.017604] (-) TimerEvent: {}
+[5.117890] (-) TimerEvent: {}
+[5.218388] (-) TimerEvent: {}
+[5.319010] (-) TimerEvent: {}
+[5.419976] (-) TimerEvent: {}
+[5.520372] (-) TimerEvent: {}
+[5.620753] (-) TimerEvent: {}
+[5.721103] (-) TimerEvent: {}
+[5.821449] (-) TimerEvent: {}
+[5.921767] (-) TimerEvent: {}
+[6.022080] (-) TimerEvent: {}
+[6.122419] (-) TimerEvent: {}
+[6.140123] (routine) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable routine\x1b[0m\n'}
+[6.222568] (-) TimerEvent: {}
+[6.323013] (-) TimerEvent: {}
+[6.423372] (-) TimerEvent: {}
+[6.513026] (routine) StdoutLine: {'line': b'[100%] Built target routine\n'}
+[6.523479] (-) TimerEvent: {}
+[6.573702] (routine) CommandEnded: {'returncode': 0}
+[6.623707] (-) TimerEvent: {}
+[6.625804] (routine) JobProgress: {'identifier': 'routine', 'progress': 'install'}
+[6.644990] (routine) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/danendra/Kuliah/SRO/TugasPID/build/routine'], 'cwd': '/home/danendra/Kuliah/SRO/TugasPID/build/routine', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danendra'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1856'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danendra'), ('OLDPWD', '/home/danendra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1672'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/danendra/Kuliah/SRO/TugasPID/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danendra'), ('JOURNAL_STREAM', '8:47641'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danendra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/danendra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/DanCoeks:@/tmp/.ICE-unix/1893,unix/DanCoeks:/tmp/.ICE-unix/1893'), ('INVOCATION_ID', 'a15cb580e20b48508bc3893a7fba15c0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6354eb86_bb3b_4014_8fd9_35b951f87bb3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danendra/Kuliah/SRO/TugasPID/install/routine:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danendra/Kuliah/SRO/TugasPID/build/routine'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danendra/Kuliah/SRO/TugasPID/install/routine:/opt/ros/foxy')]), 'shell': False}
+[6.656585] (routine) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.656905] (routine) StdoutLine: {'line': b'-- Installing: /home/danendra/Kuliah/SRO/TugasPID/install/routine/lib/routine/routine\n'}
+[6.659710] (routine) StdoutLine: {'line': b'-- Set runtime path of "/home/danendra/Kuliah/SRO/TugasPID/install/routine/lib/routine/routine" to ""\n'}
+[6.660025] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/ament_index/resource_index/package_run_dependencies/routine\n'}
+[6.660263] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/ament_index/resource_index/parent_prefix_path/routine\n'}
+[6.660463] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/ament_prefix_path.sh\n'}
+[6.660689] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/ament_prefix_path.dsv\n'}
+[6.660896] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/path.sh\n'}
+[6.661089] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/path.dsv\n'}
+[6.661304] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.bash\n'}
+[6.661490] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.sh\n'}
+[6.661647] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.zsh\n'}
+[6.661797] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.dsv\n'}
+[6.661945] (routine) StdoutLine: {'line': b'-- Installing: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/package.dsv\n'}
+[6.662094] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/ament_index/resource_index/packages/routine\n'}
+[6.662242] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/cmake/routineConfig.cmake\n'}
+[6.662392] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/cmake/routineConfig-version.cmake\n'}
+[6.662551] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/package.xml\n'}
+[6.663501] (routine) CommandEnded: {'returncode': 0}
+[6.724063] (-) TimerEvent: {}
+[6.726091] (routine) JobEnded: {'identifier': 'routine', 'rc': 0}
+[6.727112] (-) EventReactorShutdown: {}

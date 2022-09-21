@@ -1,0 +1,52 @@
+[0.017s] Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/danendra/Kuliah/SRO/TugasPID/src/routine -DCMAKE_INSTALL_PREFIX=/home/danendra/Kuliah/SRO/TugasPID/install/routine
+[0.111s] -- The C compiler identification is GNU 9.4.0
+[0.185s] -- The CXX compiler identification is GNU 9.4.0
+[0.194s] -- Check for working C compiler: /usr/bin/cc
+[0.276s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.277s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.372s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++
+[0.479s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.480s] -- Detecting CXX compiler ABI info
+[0.577s] -- Detecting CXX compiler ABI info - done
+[0.593s] -- Detecting CXX compile features
+[0.594s] -- Detecting CXX compile features - done
+[0.596s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.623s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.623s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.835s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.962s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.993s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.077s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.126s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.173s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.174s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.175s] -- Looking for pthread.h
+[1.259s] -- Looking for pthread.h - found
+[1.260s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.363s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.364s] -- Looking for pthread_create in pthreads
+[1.430s] -- Looking for pthread_create in pthreads - not found
+[1.430s] -- Looking for pthread_create in pthread
+[1.515s] -- Looking for pthread_create in pthread - found
+[1.516s] -- Found Threads: TRUE  
+[1.729s] -- Configuring done
+[1.730s] CMake Error at CMakeLists.txt:27 (add_executable):
+[1.730s]   Cannot find source file:
+[1.730s] 
+[1.730s]     src/routine_motion.cpp
+[1.730s] 
+[1.731s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.731s]   .hpp .hxx .in .txx
+[1.731s] 
+[1.731s] 
+[1.731s] CMake Error at CMakeLists.txt:27 (add_executable):
+[1.731s]   No SOURCES given to target: routine
+[1.731s] 
+[1.732s] 
+[1.732s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.740s] Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/danendra/Kuliah/SRO/TugasPID/src/routine -DCMAKE_INSTALL_PREFIX=/home/danendra/Kuliah/SRO/TugasPID/install/routine

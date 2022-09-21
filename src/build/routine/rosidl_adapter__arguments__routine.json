@@ -1,6 +1,0 @@
-{
-  "package_name": "routine",
-  "non_idl_tuples": [
-    "/home/danendra/Kuliah/SRO/colcon_ws/src/routine:msg/Motion.msg"
-  ]
-}

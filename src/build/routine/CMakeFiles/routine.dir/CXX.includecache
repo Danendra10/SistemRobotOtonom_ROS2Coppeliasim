@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/routine.cpp
+/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h
+math.h
+-
+
+/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp
 rclcpp/rclcpp.hpp
-/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/rclcpp/rclcpp.hpp
-std_msgs/msg/int32.hpp
-/home/danendra/Kuliah/SRO/colcon_ws/src/routine/src/std_msgs/msg/int32.hpp
-termios.h
--
-sys/ioctl.h
--
+/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/rclcpp/rclcpp.hpp
+std_msgs/msg/float32.hpp
+/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/std_msgs/msg/float32.hpp
+routine/kinematics.h
+/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine/kinematics.h
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp
@@ -3886,9 +3888,9 @@ statistics_msgs/msg/detail/metrics_message__builder.hpp
 statistics_msgs/msg/detail/metrics_message__traits.hpp
 /opt/ros/foxy/include/statistics_msgs/msg/statistics_msgs/msg/detail/metrics_message__traits.hpp
 
-/opt/ros/foxy/include/std_msgs/msg/detail/int32__builder.hpp
-std_msgs/msg/detail/int32__struct.hpp
-/opt/ros/foxy/include/std_msgs/msg/detail/std_msgs/msg/detail/int32__struct.hpp
+/opt/ros/foxy/include/std_msgs/msg/detail/float32__builder.hpp
+std_msgs/msg/detail/float32__struct.hpp
+/opt/ros/foxy/include/std_msgs/msg/detail/std_msgs/msg/detail/float32__struct.hpp
 rosidl_runtime_cpp/message_initialization.hpp
 -
 algorithm
@@ -3896,7 +3898,7 @@ algorithm
 utility
 -
 
-/opt/ros/foxy/include/std_msgs/msg/detail/int32__struct.hpp
+/opt/ros/foxy/include/std_msgs/msg/detail/float32__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp
 -
 rosidl_runtime_cpp/message_initialization.hpp
@@ -3912,9 +3914,9 @@ string
 vector
 -
 
-/opt/ros/foxy/include/std_msgs/msg/detail/int32__traits.hpp
-std_msgs/msg/detail/int32__struct.hpp
-/opt/ros/foxy/include/std_msgs/msg/detail/std_msgs/msg/detail/int32__struct.hpp
+/opt/ros/foxy/include/std_msgs/msg/detail/float32__traits.hpp
+std_msgs/msg/detail/float32__struct.hpp
+/opt/ros/foxy/include/std_msgs/msg/detail/std_msgs/msg/detail/float32__struct.hpp
 rosidl_runtime_cpp/traits.hpp
 -
 stdint.h
@@ -3922,13 +3924,13 @@ stdint.h
 type_traits
 -
 
-/opt/ros/foxy/include/std_msgs/msg/int32.hpp
-std_msgs/msg/detail/int32__struct.hpp
-/opt/ros/foxy/include/std_msgs/msg/std_msgs/msg/detail/int32__struct.hpp
-std_msgs/msg/detail/int32__builder.hpp
-/opt/ros/foxy/include/std_msgs/msg/std_msgs/msg/detail/int32__builder.hpp
-std_msgs/msg/detail/int32__traits.hpp
-/opt/ros/foxy/include/std_msgs/msg/std_msgs/msg/detail/int32__traits.hpp
+/opt/ros/foxy/include/std_msgs/msg/float32.hpp
+std_msgs/msg/detail/float32__struct.hpp
+/opt/ros/foxy/include/std_msgs/msg/std_msgs/msg/detail/float32__struct.hpp
+std_msgs/msg/detail/float32__builder.hpp
+/opt/ros/foxy/include/std_msgs/msg/std_msgs/msg/detail/float32__builder.hpp
+std_msgs/msg/detail/float32__traits.hpp
+/opt/ros/foxy/include/std_msgs/msg/std_msgs/msg/detail/float32__traits.hpp
 
 /opt/ros/foxy/include/tracetools/config.h
 

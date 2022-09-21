@@ -1,0 +1,32 @@
+In file included from [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:5[m[K:
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:9:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kvel_res[m[K’ [[01;35m[K-Wpedantic[m[K]
+    9 | float vel_res[1][[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:10:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kvel_inp[m[K’ [[01;35m[K-Wpedantic[m[K]
+   10 | float vel_inp[1][[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat reverseArray(float (*)[2])[m[K’:
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:34:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   34 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat forwardKinematics(int, int)[m[K’:
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:40:24:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   40 |     return [01;35m[Kvel_res[0][0][m[K, vel_res[0][1];
+      |            [01;35m[K~~~~~~~~~~~~^[m[K
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat inreverseKinematics(int, int)[m[K’:
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:45:58:[m[K [01;31m[Kerror: [m[Kincompatible types in assignment of ‘[01m[Kfloat[m[K’ to ‘[01m[Kfloat [0][m[K’
+   45 |     vel_res[0] = (logic[0][0] * _vx) + (logic[0][1] * _vy[01;31m[K)[m[K;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:46:58:[m[K [01;31m[Kerror: [m[Kincompatible types in assignment of ‘[01m[Kfloat[m[K’ to ‘[01m[Kfloat [0][m[K’
+   46 |     vel_res[1] = (logic[1][0] * _vx) + (logic[1][1] * _vy[01;31m[K)[m[K;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:48:24:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   48 |     return [01;35m[Kvel_res[0][0][m[K, vel_res[0][1];
+      |            [01;35m[K~~~~~~~~~~~~^[m[K
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:54:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_rotation[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   54 |     float [01;35m[Kdelta_rotation[m[K = 0;
+      |           [01;35m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/routine.dir/build.make:63: CMakeFiles/routine.dir/src/routine.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/routine.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
