@@ -23,25 +23,8 @@ float sensor[1];
 
 //---Vars
 //========
-float _kp_trans = 1;
-float _kp_rot = 1;
-
-void inv_kinematics(float y, float z, float ret[2]){
-    // fwd:
-    /*
-        0.1     0.1
-        0.5     -0.5
-    */
-
-   //inv
-
-   /*
-        5     1
-        5     -1
-    */
-    ret[0] = (5 * y) + (1 * z);
-    ret[1] = (5 * y) - (1 * z);
-}
+float _kp_trans = 0.5;
+float _kp_rot = 6;
 
 int main(int argc, char *argv[])
 {
@@ -75,18 +58,26 @@ int main(int argc, char *argv[])
     {
         // printf("Sensor 4 : %f | Sensor 5 : %f\n", sensor[0], sensor[1]);
         delta_sensor = sensor[0] - sensor[1];
-        distance = (sensor[0] + sensor[1]) / 2;
-        
-        vz = delta_sensor * _kp_rot;
-        vy = distance * _kp_trans;
 
-        //print vy vz delta, distance
-        // printf("%f %f %f %f \n", vy, vz, delta_sensor, distance);
-        float wheel_speed[2];
-        inv_kinematics(vy, vz, wheel_speed);
-        printf("%f %f \n", wheel_speed[0], wheel_speed[1]);
-        float vLeft = wheel_speed[0];
-        float vRight = wheel_speed[1];
+        if(sensor[0] > sensor[1])
+            distance = sensor[1] -0.4;
+        else
+            distance = sensor[0] -0.4;
+
+        if(distance > 1)
+            distance = 0;
+        
+        //---PID
+        //======
+        vz = getProportional(_kp_rot, delta_sensor);
+        vy = getProportional(_kp_trans, distance);
+
+        float vMotor[2];
+        inverseKinematics(vy, vz, vMotor);
+        printf("VY: %f || VZ: %f\n", vy, vz);
+        printf("%f %f \n", vMotor[0], vMotor[1]);
+        float vLeft = vMotor[0];
+        float vRight = vMotor[1];
         msg_motor_left.data = vLeft;
         msg_motor_right.data = vRight;
 

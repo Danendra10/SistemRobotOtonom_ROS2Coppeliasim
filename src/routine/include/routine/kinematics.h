@@ -13,6 +13,11 @@ float logic[][2] = {
         {WHEEL_RADIUS/(ROBOT_LENGTH*2),     -WHEEL_RADIUS/(ROBOT_LENGTH*2)},
 };
 
+float inv_logic[][2] = {
+        {5, 1},
+        {5, 1},
+};
+
 void swap(float* a, float* b)
 {
     float temp = *a;
@@ -40,12 +45,24 @@ float forwardKinematics(int _vRightWheel, int _vLeftWheel){
     return vel_res[0][0], vel_res[0][1];
 }
 
-float inreverseKinematics(float _vx, float _vy){
+// float inreverseKinematics(float _vx, float _vy){
 
-    return (logic[0][0] * _vx) + (logic[0][1] * _vy), 
-    (logic[1][0] * _vx) + (logic[1][1] * _vy);
+//     return (logic[0][0] * _vx) + (logic[0][1] * _vy), 
+//     (logic[1][0] * _vx) + (logic[1][1] * _vy);
+// }
+
+float inverseKinematics(float _vy, float _vz, float ret[2]){
+    ret[0] = (inv_logic[0][0] * _vy) + (inv_logic[0][1] * _vz);
+    ret[1] = (inv_logic[1][0] * _vy) - (inv_logic[1][1] * _vz);
+    printf("logic: %f, %f, %f, %f\n", inv_logic[0][0], inv_logic[0][1], inv_logic[1][0], inv_logic[1][1]);
+    printf("RET: %f, %f\n", ret[0], ret[1]);
+    // ret[0] = (5 * _vy) + (1 * _vz);
+    // ret[1] = (5 * _vy) - (1 * _vz);
 }
 
+float getProportional(float _kp, float _error){
+    return _kp * _error;
+}
 
 
 #endif

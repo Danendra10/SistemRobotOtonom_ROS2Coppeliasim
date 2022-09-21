@@ -1,0 +1,60 @@
+[0.079s] Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/TugasPID/build/routine -- -j8 -l8
+[0.256s] [35m[1mScanning dependencies of target routine[0m
+[0.376s] [ 50%] [32mBuilding CXX object CMakeFiles/routine.dir/src/routine.cpp.o[0m
+[4.736s] In file included from [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:5[m[K:
+[4.736s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:9:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kvel_res[m[K’ [[01;35m[K-Wpedantic[m[K]
+[4.737s]     9 | float vel_res[1][[01;35m[K0[m[K];
+[4.738s]       |                  [01;35m[K^[m[K
+[4.739s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:10:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kvel_inp[m[K’ [[01;35m[K-Wpedantic[m[K]
+[4.740s]    10 | float vel_inp[1][[01;35m[K0[m[K];
+[4.740s]       |                  [01;35m[K^[m[K
+[4.741s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:14:1:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K4.875e+1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-Wnarrowing[m[K]
+[4.741s]    14 | [01;31m[K}[m[K;
+[4.742s]       | [01;31m[K^[m[K
+[4.742s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:14:1:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K4.875e+1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-Wnarrowing[m[K]
+[4.742s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:14:1:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K1.2795275590551181e-1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-Wnarrowing[m[K]
+[4.742s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:14:1:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K-1.2795275590551181e-1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-Wnarrowing[m[K]
+[4.743s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat reverseArray(float (*)[2])[m[K’:
+[4.743s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:39:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[4.743s]    39 | [01;35m[K}[m[K
+[4.743s]       | [01;35m[K^[m[K
+[4.744s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat forwardKinematics(int, int)[m[K’:
+[4.745s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:45:24:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[4.745s]    45 |     return [01;35m[Kvel_res[0][0][m[K, vel_res[0][1];
+[4.749s]       |            [01;35m[K~~~~~~~~~~~~^[m[K
+[4.750s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat inverseKinematics(float, float, float*)[m[K’:
+[4.750s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:57:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+[4.750s]    57 |     printf("logic: [01;35m[K%d[m[K, %d, %d, %d\n", [32m[Kinv_logic[0][0][m[K, inv_logic[0][1], inv_logic[1][0], inv_logic[1][1]);
+[4.750s]       |                    [01;35m[K~^[m[K                 [32m[K~~~~~~~~~~~~~~~[m[K
+[4.751s]       |                     [01;35m[K|[m[K                               [32m[K|[m[K
+[4.751s]       |                     [01;35m[Kint[m[K                             [32m[Kdouble[m[K
+[4.751s]       |                    [32m[K%f[m[K
+[4.751s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:57:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+[4.751s]    57 |     printf("logic: %d, [01;35m[K%d[m[K, %d, %d\n", inv_logic[0][0], [32m[Kinv_logic[0][1][m[K, inv_logic[1][0], inv_logic[1][1]);
+[4.752s]       |                        [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~~~[m[K
+[4.752s]       |                         [01;35m[K|[m[K                                            [32m[K|[m[K
+[4.752s]       |                         [01;35m[Kint[m[K                                          [32m[Kdouble[m[K
+[4.753s]       |                        [32m[K%f[m[K
+[4.753s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:57:29:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+[4.753s]    57 |     printf("logic: %d, %d, [01;35m[K%d[m[K, %d\n", inv_logic[0][0], inv_logic[0][1], [32m[Kinv_logic[1][0][m[K, inv_logic[1][1]);
+[4.754s]       |                            [01;35m[K~^[m[K                                           [32m[K~~~~~~~~~~~~~~~[m[K
+[4.754s]       |                             [01;35m[K|[m[K                                                         [32m[K|[m[K
+[4.755s]       |                             [01;35m[Kint[m[K                                                       [32m[Kdouble[m[K
+[4.755s]       |                            [32m[K%f[m[K
+[4.755s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:57:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+[4.756s]    57 |     printf("logic: %d, %d, %d, [01;35m[K%d[m[K\n", inv_logic[0][0], inv_logic[0][1], inv_logic[1][0], [32m[Kinv_logic[1][1][m[K);
+[4.756s]       |                                [01;35m[K~^[m[K                                                        [32m[K~~~~~~~~~~~~~~~[m[K
+[4.756s]       |                                 [01;35m[K|[m[K                                                                      [32m[K|[m[K
+[4.756s]       |                                 [01;35m[Kint[m[K                                                                    [32m[Kdouble[m[K
+[4.756s]       |                                [32m[K%f[m[K
+[4.757s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:61:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[4.757s]    61 | [01;35m[K}[m[K
+[4.757s]       | [01;35m[K^[m[K
+[4.824s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.825s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:54:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_rotation[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.826s]    54 |     float [01;35m[Kdelta_rotation[m[K = 0;
+[4.826s]       |           [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.780s] make[2]: *** [CMakeFiles/routine.dir/build.make:63: CMakeFiles/routine.dir/src/routine.cpp.o] Error 1
+[10.780s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/routine.dir/all] Error 2
+[10.781s] make: *** [Makefile:141: all] Error 2
+[10.786s] Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/TugasPID/build/routine -- -j8 -l8

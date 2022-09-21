@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.001512] (routine) JobQueued: {'identifier': 'routine', 'dependencies': OrderedDict()}
+[0.001785] (routine) JobStarted: {'identifier': 'routine'}
+[0.051363] (routine) JobProgress: {'identifier': 'routine', 'progress': 'cmake'}
+[0.054126] (routine) JobProgress: {'identifier': 'routine', 'progress': 'build'}
+[0.057894] (routine) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danendra/Kuliah/SRO/TugasPID/build/routine', '--', '-j8', '-l8'], 'cwd': '/home/danendra/Kuliah/SRO/TugasPID/build/routine', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danendra'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1852'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danendra'), ('OLDPWD', '/home/danendra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1669'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/danendra/Kuliah/SRO/TugasPID/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danendra'), ('JOURNAL_STREAM', '8:44659'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danendra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/danendra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/DanCoeks:@/tmp/.ICE-unix/1889,unix/DanCoeks:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', 'ed73755d7b984eccbdec537c38d0f46e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/505c4ce1_c8bb_453c_b79b_b16924a337a9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danendra/Kuliah/SRO/TugasPID/install/routine:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danendra/Kuliah/SRO/TugasPID/build/routine'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danendra/Kuliah/SRO/TugasPID/install/routine:/opt/ros/foxy')]), 'shell': False}
+[0.097980] (-) TimerEvent: {}
+[0.199616] (-) TimerEvent: {}
+[0.257687] (routine) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target routine\x1b[0m\n'}
+[0.305780] (-) TimerEvent: {}
+[0.377199] (routine) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/routine.dir/src/routine.cpp.o\x1b[0m\n'}
+[0.406013] (-) TimerEvent: {}
+[0.506775] (-) TimerEvent: {}
+[0.607336] (-) TimerEvent: {}
+[0.707871] (-) TimerEvent: {}
+[0.808525] (-) TimerEvent: {}
+[0.909598] (-) TimerEvent: {}
+[1.010540] (-) TimerEvent: {}
+[1.111828] (-) TimerEvent: {}
+[1.213083] (-) TimerEvent: {}
+[1.314036] (-) TimerEvent: {}
+[1.415389] (-) TimerEvent: {}
+[1.516009] (-) TimerEvent: {}
+[1.616821] (-) TimerEvent: {}
+[1.717760] (-) TimerEvent: {}
+[1.818783] (-) TimerEvent: {}
+[1.919890] (-) TimerEvent: {}
+[2.020368] (-) TimerEvent: {}
+[2.120895] (-) TimerEvent: {}
+[2.221519] (-) TimerEvent: {}
+[2.322506] (-) TimerEvent: {}
+[2.424083] (-) TimerEvent: {}
+[2.525022] (-) TimerEvent: {}
+[2.626136] (-) TimerEvent: {}
+[2.727235] (-) TimerEvent: {}
+[2.828732] (-) TimerEvent: {}
+[2.930198] (-) TimerEvent: {}
+[3.030783] (-) TimerEvent: {}
+[3.131364] (-) TimerEvent: {}
+[3.231942] (-) TimerEvent: {}
+[3.332597] (-) TimerEvent: {}
+[3.433458] (-) TimerEvent: {}
+[3.534558] (-) TimerEvent: {}
+[3.635106] (-) TimerEvent: {}
+[3.735982] (-) TimerEvent: {}
+[3.836518] (-) TimerEvent: {}
+[3.937142] (-) TimerEvent: {}
+[4.038247] (-) TimerEvent: {}
+[4.139797] (-) TimerEvent: {}
+[4.240931] (-) TimerEvent: {}
+[4.341616] (-) TimerEvent: {}
+[4.442664] (-) TimerEvent: {}
+[4.544061] (-) TimerEvent: {}
+[4.645371] (-) TimerEvent: {}
+[4.737088] (routine) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:5\x1b[m\x1b[K:\n'}
+[4.737704] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:9:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kvel_res\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.738218] (routine) StderrLine: {'line': b'    9 | float vel_res[1][\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.738819] (routine) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.740568] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:10:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kvel_inp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.741561] (routine) StderrLine: {'line': b'   10 | float vel_inp[1][\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.741996] (routine) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.742272] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:14:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K4.875e+1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[4.742944] (routine) StderrLine: {'line': b'   14 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[4.743306] (routine) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.743557] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:14:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K4.875e+1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[4.743791] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:14:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K1.2795275590551181e-1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[4.744021] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:14:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K-1.2795275590551181e-1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[4.744242] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat reverseArray(float (*)[2])\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.744465] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:39:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[4.744696] (routine) StderrLine: {'line': b'   39 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[4.744977] (routine) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.745231] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat forwardKinematics(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.745483] (-) TimerEvent: {}
+[4.746045] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:45:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[4.746614] (routine) StderrLine: {'line': b'   45 |     return \x1b[01;35m\x1b[Kvel_res[0][0]\x1b[m\x1b[K, vel_res[0][1];\n'}
+[4.747406] (routine) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.751389] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat inverseKinematics(float, float, float*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.751662] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:57:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[4.751873] (routine) StderrLine: {'line': b'   57 |     printf("logic: \x1b[01;35m\x1b[K%d\x1b[m\x1b[K, %d, %d, %d\\n", \x1b[32m\x1b[Kinv_logic[0][0]\x1b[m\x1b[K, inv_logic[0][1], inv_logic[1][0], inv_logic[1][1]);\n'}
+[4.752037] (routine) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                 \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.752214] (routine) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K|\x1b[m\x1b[K                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.752394] (routine) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[Kint\x1b[m\x1b[K                             \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.752560] (routine) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[4.752742] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:57:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[4.752975] (routine) StderrLine: {'line': b'   57 |     printf("logic: %d, \x1b[01;35m\x1b[K%d\x1b[m\x1b[K, %d, %d\\n", inv_logic[0][0], \x1b[32m\x1b[Kinv_logic[0][1]\x1b[m\x1b[K, inv_logic[1][0], inv_logic[1][1]);\n'}
+[4.753198] (routine) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                              \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.753413] (routine) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K|\x1b[m\x1b[K                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.753842] (routine) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[Kint\x1b[m\x1b[K                                          \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.754267] (routine) StderrLine: {'line': b'      |                        \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[4.754651] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:57:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 4 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[4.755051] (routine) StderrLine: {'line': b'   57 |     printf("logic: %d, %d, \x1b[01;35m\x1b[K%d\x1b[m\x1b[K, %d\\n", inv_logic[0][0], inv_logic[0][1], \x1b[32m\x1b[Kinv_logic[1][0]\x1b[m\x1b[K, inv_logic[1][1]);\n'}
+[4.755331] (routine) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                                           \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.755748] (routine) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K|\x1b[m\x1b[K                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.756174] (routine) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[Kint\x1b[m\x1b[K                                                       \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.756648] (routine) StderrLine: {'line': b'      |                            \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[4.756950] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:57:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[4.757184] (routine) StderrLine: {'line': b'   57 |     printf("logic: %d, %d, %d, \x1b[01;35m\x1b[K%d\x1b[m\x1b[K\\n", inv_logic[0][0], inv_logic[0][1], inv_logic[1][0], \x1b[32m\x1b[Kinv_logic[1][1]\x1b[m\x1b[K);\n'}
+[4.757392] (routine) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                                                        \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.757622] (routine) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K|\x1b[m\x1b[K                                                                      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.757832] (routine) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[Kint\x1b[m\x1b[K                                                                    \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.758042] (routine) StderrLine: {'line': b'      |                                \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[4.758270] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:61:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[4.758511] (routine) StderrLine: {'line': b'   61 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[4.758738] (routine) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.824943] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.825934] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:54:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdelta_rotation\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[4.827147] (routine) StderrLine: {'line': b'   54 |     float \x1b[01;35m\x1b[Kdelta_rotation\x1b[m\x1b[K = 0;\n'}
+[4.827624] (routine) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.845674] (-) TimerEvent: {}
+[4.946367] (-) TimerEvent: {}
+[5.047021] (-) TimerEvent: {}
+[5.147651] (-) TimerEvent: {}
+[5.248568] (-) TimerEvent: {}
+[5.349542] (-) TimerEvent: {}
+[5.450843] (-) TimerEvent: {}
+[5.551685] (-) TimerEvent: {}
+[5.652447] (-) TimerEvent: {}
+[5.753319] (-) TimerEvent: {}
+[5.854601] (-) TimerEvent: {}
+[5.955712] (-) TimerEvent: {}
+[6.056416] (-) TimerEvent: {}
+[6.157419] (-) TimerEvent: {}
+[6.258247] (-) TimerEvent: {}
+[6.359595] (-) TimerEvent: {}
+[6.461382] (-) TimerEvent: {}
+[6.562189] (-) TimerEvent: {}
+[6.662926] (-) TimerEvent: {}
+[6.764262] (-) TimerEvent: {}
+[6.865657] (-) TimerEvent: {}
+[6.966442] (-) TimerEvent: {}
+[7.067489] (-) TimerEvent: {}
+[7.168268] (-) TimerEvent: {}
+[7.269800] (-) TimerEvent: {}
+[7.371184] (-) TimerEvent: {}
+[7.472277] (-) TimerEvent: {}
+[7.573191] (-) TimerEvent: {}
+[7.673916] (-) TimerEvent: {}
+[7.775664] (-) TimerEvent: {}
+[7.876872] (-) TimerEvent: {}
+[7.977571] (-) TimerEvent: {}
+[8.078464] (-) TimerEvent: {}
+[8.179525] (-) TimerEvent: {}
+[8.280171] (-) TimerEvent: {}
+[8.380985] (-) TimerEvent: {}
+[8.481794] (-) TimerEvent: {}
+[8.583340] (-) TimerEvent: {}
+[8.684481] (-) TimerEvent: {}
+[8.785469] (-) TimerEvent: {}
+[8.886205] (-) TimerEvent: {}
+[8.987445] (-) TimerEvent: {}
+[9.088513] (-) TimerEvent: {}
+[9.189943] (-) TimerEvent: {}
+[9.291258] (-) TimerEvent: {}
+[9.392422] (-) TimerEvent: {}
+[9.493820] (-) TimerEvent: {}
+[9.594708] (-) TimerEvent: {}
+[9.695491] (-) TimerEvent: {}
+[9.797250] (-) TimerEvent: {}
+[9.898653] (-) TimerEvent: {}
+[9.999851] (-) TimerEvent: {}
+[10.101203] (-) TimerEvent: {}
+[10.202246] (-) TimerEvent: {}
+[10.303070] (-) TimerEvent: {}
+[10.403953] (-) TimerEvent: {}
+[10.504523] (-) TimerEvent: {}
+[10.605153] (-) TimerEvent: {}
+[10.705717] (-) TimerEvent: {}
+[10.781015] (routine) StderrLine: {'line': b'make[2]: *** [CMakeFiles/routine.dir/build.make:63: CMakeFiles/routine.dir/src/routine.cpp.o] Error 1\n'}
+[10.781805] (routine) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/routine.dir/all] Error 2\n'}
+[10.782147] (routine) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.786847] (routine) CommandEnded: {'returncode': 2}
+[10.806510] (-) TimerEvent: {}
+[10.908844] (-) TimerEvent: {}
+[10.945165] (routine) JobEnded: {'identifier': 'routine', 'rc': 2}
+[10.957901] (-) EventReactorShutdown: {}

@@ -1,0 +1,49 @@
+[0.021s] Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/TugasPID/build/routine -- -j8 -l8
+[0.087s] [35m[1mScanning dependencies of target routine[0m
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/routine.dir/src/routine.cpp.o[0m
+[1.733s] In file included from [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:5[m[K:
+[1.733s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:9:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kvel_res[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.734s]     9 | float vel_res[1][[01;35m[K0[m[K];
+[1.734s]       |                  [01;35m[K^[m[K
+[1.734s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:10:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kvel_inp[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.734s]    10 | float vel_inp[1][[01;35m[K0[m[K];
+[1.734s]       |                  [01;35m[K^[m[K
+[1.734s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat reverseArray(float (*)[2])[m[K’:
+[1.734s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:39:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.735s]    39 | [01;35m[K}[m[K
+[1.735s]       | [01;35m[K^[m[K
+[1.735s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat forwardKinematics(int, int)[m[K’:
+[1.735s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:45:24:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.735s]    45 |     return [01;35m[Kvel_res[0][0][m[K, vel_res[0][1];
+[1.735s]       |            [01;35m[K~~~~~~~~~~~~^[m[K
+[1.735s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat inverseKinematics(float, float, float*)[m[K’:
+[1.735s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/include/routine/kinematics.h:57:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.736s]    57 | [01;35m[K}[m[K
+[1.736s]       | [01;35m[K^[m[K
+[1.765s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.765s] [01m[K/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp:54:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_rotation[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.765s]    54 |     float [01;35m[Kdelta_rotation[m[K = 0;
+[1.765s]       |           [01;35m[K^~~~~~~~~~~~~~[m[K
+[6.620s] [100%] [32m[1mLinking CXX executable routine[0m
+[7.068s] [100%] Built target routine
+[7.089s] Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/TugasPID/build/routine -- -j8 -l8
+[7.144s] Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SRO/TugasPID/build/routine
+[7.156s] -- Install configuration: ""
+[7.157s] -- Installing: /home/danendra/Kuliah/SRO/TugasPID/install/routine/lib/routine/routine
+[7.162s] -- Set runtime path of "/home/danendra/Kuliah/SRO/TugasPID/install/routine/lib/routine/routine" to ""
+[7.162s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/ament_index/resource_index/package_run_dependencies/routine
+[7.162s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/ament_index/resource_index/parent_prefix_path/routine
+[7.162s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/ament_prefix_path.sh
+[7.163s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/ament_prefix_path.dsv
+[7.163s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/path.sh
+[7.163s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/environment/path.dsv
+[7.163s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.bash
+[7.163s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.sh
+[7.164s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.zsh
+[7.164s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/local_setup.dsv
+[7.164s] -- Installing: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/package.dsv
+[7.164s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/ament_index/resource_index/packages/routine
+[7.164s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/cmake/routineConfig.cmake
+[7.164s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/cmake/routineConfig-version.cmake
+[7.164s] -- Up-to-date: /home/danendra/Kuliah/SRO/TugasPID/install/routine/share/routine/package.xml
+[7.167s] Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SRO/TugasPID/build/routine
