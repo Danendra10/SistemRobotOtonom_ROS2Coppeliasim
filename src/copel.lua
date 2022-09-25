@@ -17,6 +17,7 @@ function sysCall_init()
     v_motor_left = 0
     v_motor_right = 0
     local robot=sim.getObject('.')
+    local plane1 = sim.getObject('/Plane')
     local obstacles=sim.createCollection(0)
     sim.addItemToCollection(obstacles,sim.handle_all,-1,0)
     sim.addItemToCollection(obstacles,sim.handle_tree,robot,1)
@@ -43,8 +44,8 @@ function sysCall_cleanup()
 end 
 
 function sysCall_actuation() 
-    local sensor_4, dist_4 = sim.readProximitySensor(usensors[4])
-    local sensor_5, dist_5 = sim.readProximitySensor(usensors[5])
+    local sensor_4, dist_4 = sim.readProximitySensor(usensors[3])
+    local sensor_5, dist_5 = sim.readProximitySensor(usensors[4])
     for i=1,16,1 do
         res,dist=sim.readProximitySensor(usensors[i])
         if (res>0) and (dist<noDetectionDist) then
@@ -57,16 +58,23 @@ function sysCall_actuation()
         end
     end
     
-    vLeft=v0
-    vRight=v0
+    --for i=1,16,1 do
+        --vLeft=vLeft+braitenbergL[i]*detect[i]
+        --vRight=vRight+braitenbergR[i]*detect[i]
+    --end
     
-    for i=1,16,1 do
-        vLeft=vLeft+braitenbergL[i]*detect[i]
-        vRight=vRight+braitenbergR[i]*detect[i]
-    end
+    vLeft=v_motor_left
+    vRight=v_motor_right
     
-    [[--sim.setJointTargetVelocity(motorLeft,vLeft)
-    sim.setJointTargetVelocity(motorRight,vRight)--]]
+    
+    
+    print("vel motor left: "..vLeft)
+    print("vel motor right: "..vRight)
+    --sim.getJointTargetVelocity(motorLeft, vLeft)
+    --sim.getJointTargetVelocity(motorRight, vRight)
+    
+    sim.setJointTargetVelocity(motorLeft,vLeft)
+    sim.setJointTargetVelocity(motorRight,vRight)    
     
     simROS2.publish(pub_sensor_4, {data=dist_4})
     simROS2.publish(pub_sensor_5, {data=dist_5})

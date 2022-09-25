@@ -3,7 +3,6 @@
 
 
 #include "routine/kinematics.h"
-#include "routine/motion.h"
 
 using std::placeholders::_1;
 
@@ -66,11 +65,14 @@ int main(int argc, char *argv[])
             distance = sensor[0] -0.4;
 
         if(distance > 1)
-            distance = 0;            
+            distance = 0;
+        
+        //---PID
+        //======
+        vz = getProportional(_kp_rot, delta_sensor);
+        vy = getProportional(_kp_trans, distance);
 
         float vMotor[2];
-        float vOut[2];
-        JalanPosisiSudut(10, 20, 10, vMotor, vOut);
         inverseKinematics(vy, vz, vMotor);
         printf("VY: %f || VZ: %f\n", vy, vz);
         printf("%f %f \n", vMotor[0], vMotor[1]);
