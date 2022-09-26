@@ -1,0 +1,40 @@
+In file included from [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:5[m[K:
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:9:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kvel_res[m[K’ [[01;35m[K-Wpedantic[m[K]
+    9 | float vel_res[1][[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:10:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kvel_inp[m[K’ [[01;35m[K-Wpedantic[m[K]
+   10 | float vel_inp[1][[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat reverseArray(float (*)[2])[m[K’:
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:39:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   39 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat forwardKinematics(int, int)[m[K’:
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:45:24:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   45 |     return [01;35m[Kvel_res[0][0][m[K, vel_res[0][1];
+      |            [01;35m[K~~~~~~~~~~~~^[m[K
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat inverseKinematics(float, float, float*)[m[K’:
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:61:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   61 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+In file included from [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:4[m[K,
+                 from [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:6[m[K:
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/pid.h:[m[K In member function ‘[01m[Kfloat pid::calc(float, float)[m[K’:
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/pid.h:21:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_integral[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   21 |     float calc(float _error, [01;35m[Kfloat _integral[m[K){
+      |                              [01;35m[K~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:6[m[K:
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:[m[K In function ‘[01m[Kvoid JalanManualPosisi(float, float)[m[K’:
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:8:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_vx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    8 | void JalanManualPosisi([01;35m[Kfloat _vx[m[K, float _vy)
+      |                        [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:8:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_vy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    8 | void JalanManualPosisi(float _vx, [01;35m[Kfloat _vy[m[K)
+      |                                   [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:87:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KvOut[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   87 |         float [01;35m[KvOut[m[K[2];
+      |               [01;35m[K^~~~[m[K
+[01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:71:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdelta_posisi[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   71 |     float [01;35m[Kdelta_posisi[m[K = 0;
+      |           [01;35m[K^~~~~~~~~~~~[m[K

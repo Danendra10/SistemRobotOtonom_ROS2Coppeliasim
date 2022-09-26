@@ -1,2 +1,0 @@
-Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/TugasPID/build/routine -- -j8 -l8
-Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/TugasPID/build/routine -- -j8 -l8

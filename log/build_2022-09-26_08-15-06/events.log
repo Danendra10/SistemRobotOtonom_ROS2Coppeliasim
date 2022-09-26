@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000718] (routine) JobQueued: {'identifier': 'routine', 'dependencies': OrderedDict()}
+[0.000765] (routine) JobStarted: {'identifier': 'routine'}
+[0.014210] (routine) JobProgress: {'identifier': 'routine', 'progress': 'cmake'}
+[0.016274] (routine) JobProgress: {'identifier': 'routine', 'progress': 'build'}
+[0.016363] (routine) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine', '--', '-j8', '-l8'], 'cwd': '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danendra'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danendra'), ('OLDPWD', '/home/danendra'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1651'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danendra'), ('JOURNAL_STREAM', '8:44684'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danendra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/danendra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/DanCoeks:@/tmp/.ICE-unix/1795,unix/DanCoeks:/tmp/.ICE-unix/1795'), ('INVOCATION_ID', '332d0bb3413841a78e483cfea2ae6938'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8cf83cef_a2c5_46db_b625_72a25a1fe5de'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QMZFT1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine:/opt/ros/foxy')]), 'shell': False}
+[0.072595] (routine) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target routine\x1b[0m\n'}
+[0.100012] (-) TimerEvent: {}
+[0.104030] (routine) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/routine.dir/src/routine.cpp.o\x1b[0m\n'}
+[0.200168] (-) TimerEvent: {}
+[0.300506] (-) TimerEvent: {}
+[0.400861] (-) TimerEvent: {}
+[0.501262] (-) TimerEvent: {}
+[0.601602] (-) TimerEvent: {}
+[0.701963] (-) TimerEvent: {}
+[0.802377] (-) TimerEvent: {}
+[0.902728] (-) TimerEvent: {}
+[1.003123] (-) TimerEvent: {}
+[1.103498] (-) TimerEvent: {}
+[1.203859] (-) TimerEvent: {}
+[1.304235] (-) TimerEvent: {}
+[1.404575] (-) TimerEvent: {}
+[1.419868] (routine) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:5\x1b[m\x1b[K:\n'}
+[1.420114] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:9:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kvel_res\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.420199] (routine) StderrLine: {'line': b'    9 | float vel_res[1][\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[1.420405] (routine) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.420528] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:10:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kvel_inp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[1.420814] (routine) StderrLine: {'line': b'   10 | float vel_inp[1][\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[1.420921] (routine) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.420998] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat reverseArray(float (*)[2])\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.421081] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:39:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.421282] (routine) StderrLine: {'line': b'   39 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.421367] (routine) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.421441] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat forwardKinematics(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.421515] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:45:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[1.421614] (routine) StderrLine: {'line': b'   45 |     return \x1b[01;35m\x1b[Kvel_res[0][0]\x1b[m\x1b[K, vel_res[0][1];\n'}
+[1.421686] (routine) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.421756] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat inverseKinematics(float, float, float*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.421827] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:61:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.421898] (routine) StderrLine: {'line': b'   61 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.421969] (routine) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.422038] (routine) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:4\x1b[m\x1b[K,\n'}
+[1.422108] (routine) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:6\x1b[m\x1b[K:\n'}
+[1.422176] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/pid.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kfloat pid::calc(float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.422246] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/pid.h:21:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_integral\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.422316] (routine) StderrLine: {'line': b'   21 |     float calc(float _error, \x1b[01;35m\x1b[Kfloat _integral\x1b[m\x1b[K){\n'}
+[1.422385] (routine) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.425826] (routine) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:6\x1b[m\x1b[K:\n'}
+[1.426025] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid JalanManualPosisi(float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.426108] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:8:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_vx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.426196] (routine) StderrLine: {'line': b'    8 | void JalanManualPosisi(\x1b[01;35m\x1b[Kfloat _vx\x1b[m\x1b[K, float _vy)\n'}
+[1.426271] (routine) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.426342] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:8:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_vy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.426414] (routine) StderrLine: {'line': b'    8 | void JalanManualPosisi(float _vx, \x1b[01;35m\x1b[Kfloat _vy\x1b[m\x1b[K)\n'}
+[1.426521] (routine) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.467604] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.467992] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:87:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KvOut\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.468100] (routine) StderrLine: {'line': b'   87 |         float \x1b[01;35m\x1b[KvOut\x1b[m\x1b[K[2];\n'}
+[1.468177] (routine) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.468247] (routine) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:71:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kdelta_posisi\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[1.468326] (routine) StderrLine: {'line': b'   71 |     float \x1b[01;35m\x1b[Kdelta_posisi\x1b[m\x1b[K = 0;\n'}
+[1.468394] (routine) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.504724] (-) TimerEvent: {}
+[1.605087] (-) TimerEvent: {}
+[1.705443] (-) TimerEvent: {}
+[1.805828] (-) TimerEvent: {}
+[1.906287] (-) TimerEvent: {}
+[2.006676] (-) TimerEvent: {}
+[2.107043] (-) TimerEvent: {}
+[2.207413] (-) TimerEvent: {}
+[2.307794] (-) TimerEvent: {}
+[2.408162] (-) TimerEvent: {}
+[2.508527] (-) TimerEvent: {}
+[2.608873] (-) TimerEvent: {}
+[2.709230] (-) TimerEvent: {}
+[2.809597] (-) TimerEvent: {}
+[2.909961] (-) TimerEvent: {}
+[3.010328] (-) TimerEvent: {}
+[3.110683] (-) TimerEvent: {}
+[3.211092] (-) TimerEvent: {}
+[3.311484] (-) TimerEvent: {}
+[3.411837] (-) TimerEvent: {}
+[3.512178] (-) TimerEvent: {}
+[3.612524] (-) TimerEvent: {}
+[3.712877] (-) TimerEvent: {}
+[3.813277] (-) TimerEvent: {}
+[3.913621] (-) TimerEvent: {}
+[4.013973] (-) TimerEvent: {}
+[4.114323] (-) TimerEvent: {}
+[4.214685] (-) TimerEvent: {}
+[4.315060] (-) TimerEvent: {}
+[4.415378] (-) TimerEvent: {}
+[4.515699] (-) TimerEvent: {}
+[4.617847] (-) TimerEvent: {}
+[4.718150] (-) TimerEvent: {}
+[4.818556] (-) TimerEvent: {}
+[4.918886] (-) TimerEvent: {}
+[5.019276] (-) TimerEvent: {}
+[5.119641] (-) TimerEvent: {}
+[5.219978] (-) TimerEvent: {}
+[5.232804] (routine) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable routine\x1b[0m\n'}
+[5.320113] (-) TimerEvent: {}
+[5.420435] (-) TimerEvent: {}
+[5.520788] (-) TimerEvent: {}
+[5.560144] (routine) StdoutLine: {'line': b'[100%] Built target routine\n'}
+[5.573537] (routine) CommandEnded: {'returncode': 0}
+[5.601024] (routine) JobProgress: {'identifier': 'routine', 'progress': 'install'}
+[5.614919] (routine) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine'], 'cwd': '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danendra'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danendra'), ('OLDPWD', '/home/danendra'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1651'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danendra'), ('JOURNAL_STREAM', '8:44684'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danendra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/danendra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/DanCoeks:@/tmp/.ICE-unix/1795,unix/DanCoeks:/tmp/.ICE-unix/1795'), ('INVOCATION_ID', '332d0bb3413841a78e483cfea2ae6938'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8cf83cef_a2c5_46db_b625_72a25a1fe5de'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QMZFT1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine:/opt/ros/foxy')]), 'shell': False}
+[5.620873] (-) TimerEvent: {}
+[5.624734] (routine) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.625022] (routine) StdoutLine: {'line': b'-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/lib/routine/routine\n'}
+[5.627737] (routine) StdoutLine: {'line': b'-- Set runtime path of "/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/lib/routine/routine" to ""\n'}
+[5.628191] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/ament_index/resource_index/package_run_dependencies/routine\n'}
+[5.628337] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/ament_index/resource_index/parent_prefix_path/routine\n'}
+[5.628458] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/ament_prefix_path.sh\n'}
+[5.628558] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/ament_prefix_path.dsv\n'}
+[5.628658] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/path.sh\n'}
+[5.628731] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/path.dsv\n'}
+[5.628829] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.bash\n'}
+[5.628953] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.sh\n'}
+[5.629050] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.zsh\n'}
+[5.629122] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.dsv\n'}
+[5.629191] (routine) StdoutLine: {'line': b'-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/package.dsv\n'}
+[5.629261] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/ament_index/resource_index/packages/routine\n'}
+[5.629331] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/cmake/routineConfig.cmake\n'}
+[5.629408] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/cmake/routineConfig-version.cmake\n'}
+[5.629493] (routine) StdoutLine: {'line': b'-- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/package.xml\n'}
+[5.631137] (routine) CommandEnded: {'returncode': 0}
+[5.684129] (routine) JobEnded: {'identifier': 'routine', 'rc': 0}
+[5.685114] (-) EventReactorShutdown: {}

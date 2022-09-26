@@ -1,6 +1,0 @@
-Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/danendra/Kuliah/SRO/TugasPID/src/routine -DCMAKE_INSTALL_PREFIX=/home/danendra/Kuliah/SRO/TugasPID/install/routine
-Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/danendra/Kuliah/SRO/TugasPID/src/routine -DCMAKE_INSTALL_PREFIX=/home/danendra/Kuliah/SRO/TugasPID/install/routine
-Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/TugasPID/build/routine -- -j8 -l8
-Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SRO/TugasPID/build/routine -- -j8 -l8
-Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SRO/TugasPID/build/routine
-Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SRO/TugasPID/build/routine

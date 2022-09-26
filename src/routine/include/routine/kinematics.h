@@ -54,8 +54,8 @@ float forwardKinematics(int _vRightWheel, int _vLeftWheel){
 float inverseKinematics(float _vy, float _vz, float ret[2]){
     ret[0] = (inv_logic[0][0] * _vy) + (inv_logic[0][1] * _vz);
     ret[1] = (inv_logic[1][0] * _vy) - (inv_logic[1][1] * _vz);
-    printf("logic: %f, %f, %f, %f\n", inv_logic[0][0], inv_logic[0][1], inv_logic[1][0], inv_logic[1][1]);
-    printf("RET: %f, %f\n", ret[0], ret[1]);
+    // printf("logic: %f, %f, %f, %f\n", inv_logic[0][0], inv_logic[0][1], inv_logic[1][0], inv_logic[1][1]);
+    // printf("RET: %f, %f\n", ret[0], ret[1]);
     // ret[0] = (5 * _vy) + (1 * _vz);
     // ret[1] = (5 * _vy) - (1 * _vz);
 }

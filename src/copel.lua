@@ -8,8 +8,10 @@ end
 
 function sysCall_init() 
     if simROS2 then
-        pub_sensor_4 = simROS2.createPublisher("/sensor_data_4", "std_msgs/msg/Float32")
-        pub_sensor_5 = simROS2.createPublisher("/sensor_data_5", "std_msgs/msg/Float32")
+        pub_posisi_x = simROS2.createPublisher("/posisi_x_robot", "std_msgs/msg/Float32")
+        pub_posisi_z = simROS2.createPublisher("/posisi_z_robot", "std_msgs/msg/Float32")
+        pub_posisi_x_target = simROS2.createPublisher("/posisi_x_target", "std_msgs/msg/Float32")
+        pub_posisi_z_target = simROS2.createPublisher("/posisi_z_target", "std_msgs/msg/Float32")
         
         sub_left = simROS2.createSubscription("/v_left", "std_msgs/msg/Float32", "CllbkLeftMotor")
         sub_right = simROS2.createSubscription("/v_right", "std_msgs/msg/Float32", "CllbkRightMotor")
@@ -18,6 +20,8 @@ function sysCall_init()
     v_motor_right = 0
     local robot=sim.getObject('.')
     local plane1 = sim.getObject('/Plane')
+    local pos_robot = sim.getObjectPosition(robot, plane1)
+    local pos_point = sim.getObjectPosition(plane1, robot)
     local obstacles=sim.createCollection(0)
     sim.addItemToCollection(obstacles,sim.handle_all,-1,0)
     sim.addItemToCollection(obstacles,sim.handle_tree,robot,1)
@@ -44,8 +48,6 @@ function sysCall_cleanup()
 end 
 
 function sysCall_actuation() 
-    local sensor_4, dist_4 = sim.readProximitySensor(usensors[3])
-    local sensor_5, dist_5 = sim.readProximitySensor(usensors[4])
     for i=1,16,1 do
         res,dist=sim.readProximitySensor(usensors[i])
         if (res>0) and (dist<noDetectionDist) then
@@ -66,16 +68,12 @@ function sysCall_actuation()
     vLeft=v_motor_left
     vRight=v_motor_right
     
-    
-    
-    print("vel motor left: "..vLeft)
-    print("vel motor right: "..vRight)
     --sim.getJointTargetVelocity(motorLeft, vLeft)
     --sim.getJointTargetVelocity(motorRight, vRight)
     
     sim.setJointTargetVelocity(motorLeft,vLeft)
     sim.setJointTargetVelocity(motorRight,vRight)    
     
-    simROS2.publish(pub_sensor_4, {data=dist_4})
-    simROS2.publish(pub_sensor_5, {data=dist_5})
+    simROS2.publish(pub_posisi_x, {data=pos_robot[1]})
+    
 end 

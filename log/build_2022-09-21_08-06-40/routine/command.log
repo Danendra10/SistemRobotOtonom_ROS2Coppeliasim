@@ -1,2 +1,0 @@
-Invoking command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/danendra/Kuliah/SRO/TugasPID/src/routine -DCMAKE_INSTALL_PREFIX=/home/danendra/Kuliah/SRO/TugasPID/install/routine
-Invoked command in '/home/danendra/Kuliah/SRO/TugasPID/build/routine' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/danendra/Kuliah/SRO/TugasPID/src/routine -DCMAKE_INSTALL_PREFIX=/home/danendra/Kuliah/SRO/TugasPID/install/routine

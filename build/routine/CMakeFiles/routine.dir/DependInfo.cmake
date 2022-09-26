@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/danendra/Kuliah/SRO/TugasPID/src/routine/src/routine.cpp" "/home/danendra/Kuliah/SRO/TugasPID/build/routine/CMakeFiles/routine.dir/src/routine.cpp.o"
+  "/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp" "/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine/CMakeFiles/routine.dir/src/routine.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/danendra/Kuliah/SRO/TugasPID/src/routine/include"
+  "/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include"
   "/opt/ros/foxy/include"
   )
 

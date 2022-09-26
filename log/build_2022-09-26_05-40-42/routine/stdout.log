@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target routine[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/routine.dir/src/routine.cpp.o[0m
+[100%] [32m[1mLinking CXX executable routine[0m
+[100%] Built target routine
+-- Install configuration: ""
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/lib/routine/routine
+-- Set runtime path of "/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/lib/routine/routine" to ""
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/ament_index/resource_index/package_run_dependencies/routine
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/ament_index/resource_index/parent_prefix_path/routine
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/ament_prefix_path.sh
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/ament_prefix_path.dsv
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/path.sh
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/path.dsv
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.bash
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.sh
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.zsh
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.dsv
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/package.dsv
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/ament_index/resource_index/packages/routine
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/cmake/routineConfig.cmake
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/cmake/routineConfig-version.cmake
+-- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/package.xml

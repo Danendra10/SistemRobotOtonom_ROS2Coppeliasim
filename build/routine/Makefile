@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/danendra/Kuliah/SRO/TugasPID/src/routine
+CMAKE_SOURCE_DIR = /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/danendra/Kuliah/SRO/TugasPID/build/routine
+CMAKE_BINARY_DIR = /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danendra/Kuliah/SRO/TugasPID/build/routine/CMakeFiles /home/danendra/Kuliah/SRO/TugasPID/build/routine/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine/CMakeFiles /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danendra/Kuliah/SRO/TugasPID/build/routine/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

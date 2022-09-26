@@ -1,0 +1,72 @@
+[0.016s] Invoking command in '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine -- -j8 -l8
+[0.070s] [35m[1mScanning dependencies of target routine[0m
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/routine.dir/src/routine.cpp.o[0m
+[1.358s] In file included from [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:5[m[K:
+[1.358s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:9:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kvel_res[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.358s]     9 | float vel_res[1][[01;35m[K0[m[K];
+[1.358s]       |                  [01;35m[K^[m[K
+[1.358s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:10:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kvel_inp[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.359s]    10 | float vel_inp[1][[01;35m[K0[m[K];
+[1.359s]       |                  [01;35m[K^[m[K
+[1.359s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat reverseArray(float (*)[2])[m[K’:
+[1.359s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:39:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.359s]    39 | [01;35m[K}[m[K
+[1.359s]       | [01;35m[K^[m[K
+[1.359s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat forwardKinematics(int, int)[m[K’:
+[1.359s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:45:24:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.359s]    45 |     return [01;35m[Kvel_res[0][0][m[K, vel_res[0][1];
+[1.359s]       |            [01;35m[K~~~~~~~~~~~~^[m[K
+[1.360s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:[m[K In function ‘[01m[Kfloat inverseKinematics(float, float, float*)[m[K’:
+[1.360s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/kinematics.h:61:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.360s]    61 | [01;35m[K}[m[K
+[1.360s]       | [01;35m[K^[m[K
+[1.360s] In file included from [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:4[m[K,
+[1.360s]                  from [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:6[m[K:
+[1.360s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/pid.h:[m[K In member function ‘[01m[Kfloat pid::calc(float, float)[m[K’:
+[1.361s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/pid.h:21:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_integral[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.361s]    21 |     float calc(float _error, [01;35m[Kfloat _integral[m[K){
+[1.361s]       |                              [01;35m[K~~~~~~^~~~~~~~~[m[K
+[1.361s] In file included from [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:6[m[K:
+[1.362s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:[m[K In function ‘[01m[Kvoid JalanManualPosisi(float, float)[m[K’:
+[1.362s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:8:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_vx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.362s]     8 | void JalanManualPosisi([01;35m[Kfloat _vx[m[K, float _vy)
+[1.362s]       |                        [01;35m[K~~~~~~^~~[m[K
+[1.362s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/include/routine/motion.h:8:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_vy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.362s]     8 | void JalanManualPosisi(float _vx, [01;35m[Kfloat _vy[m[K)
+[1.362s]       |                                   [01;35m[K~~~~~~^~~[m[K
+[1.385s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.385s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:87:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KvOut[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.385s]    87 |         float [01;35m[KvOut[m[K[2];
+[1.385s]       |               [01;35m[K^~~~[m[K
+[1.385s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:67:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdelta_sensor[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.385s]    67 |     float [01;35m[Kdelta_sensor[m[K = 0;
+[1.386s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[1.386s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:69:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_rotation[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.386s]    69 |     float [01;35m[Kdelta_rotation[m[K = 0;
+[1.386s]       |           [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.012s] [01m[K/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/src/routine/src/routine.cpp:89:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[3.012s]    89 |         [01;35m[KinverseKinematics(vy, vz, vMotor)[m[K;
+[3.012s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[5.086s] [100%] [32m[1mLinking CXX executable routine[0m
+[5.382s] [100%] Built target routine
+[5.395s] Invoked command in '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine -- -j8 -l8
+[5.435s] Invoking command in '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine
+[5.443s] -- Install configuration: ""
+[5.444s] -- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/lib/routine/routine
+[5.446s] -- Set runtime path of "/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/lib/routine/routine" to ""
+[5.446s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/ament_index/resource_index/package_run_dependencies/routine
+[5.447s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/ament_index/resource_index/parent_prefix_path/routine
+[5.447s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/ament_prefix_path.sh
+[5.447s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/ament_prefix_path.dsv
+[5.447s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/path.sh
+[5.447s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/environment/path.dsv
+[5.448s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.bash
+[5.448s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.sh
+[5.448s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.zsh
+[5.448s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/local_setup.dsv
+[5.448s] -- Installing: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/package.dsv
+[5.448s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/ament_index/resource_index/packages/routine
+[5.449s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/cmake/routineConfig.cmake
+[5.449s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/cmake/routineConfig-version.cmake
+[5.449s] -- Up-to-date: /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/install/routine/share/routine/package.xml
+[5.451s] Invoked command in '/home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danendra/Kuliah/SistemRobotOtonom_ROS2Coppeliasim/build/routine
